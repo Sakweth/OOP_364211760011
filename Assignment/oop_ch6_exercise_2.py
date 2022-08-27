@@ -25,20 +25,11 @@ class Vehicle :
         self.mexspeed = maxspeed
         self.price = price
 
-
-    try:
-        brand = input('Enter your ยี่ห้อรถ (brand) : ')
-        model = input('Enter your รุ่นรถ (model) : ')
-        color = input('Enter your สีรถ (color) : ')
-        maxspeed = input('Enter your ความเร็วสูงสุด (max speed) : ')
-        price = input('Enter your ราคา (price) : ')
-    except:
-        brand = ''
-        model = ''
-        color = ''
-        maxspeed = ''
-        price = ''
-
+    brand = input('Enter your ยี่ห้อรถ (brand) : ')
+    model = input('Enter your รุ่นรถ (model) : ')
+    color = input('Enter your สีรถ (color) : ')
+    maxspeed = input('Enter your ความเร็วสูงสุด (max speed) : ')
+    price = input('Enter your ราคา (price) : ')
     print('ยี่ห้อรถ :',brand)
     print('รุ่นรถ :',model)
     print('สีรถ :',color)
