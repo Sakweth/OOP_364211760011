@@ -70,6 +70,7 @@ class Labtop:
 Lab = Labtop("ASUS","Vivobook 15X","Intel Core i5-12500H","8","15.6","512","27,990")
 Lab.__str__()
 print("------------------------------------------------")
+
 print(Lab.get_Brand())
 
 Lab.set_Brand("Lenovo")
