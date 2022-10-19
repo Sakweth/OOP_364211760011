@@ -1,7 +1,7 @@
 """
-Name: {Thararat Sakweth}
-SID: {364211760011}
-Group: {MIT221}
+Name: Thararat Sakweth
+ID: 364211760011
+Group: MIT221
 """
 
 """
